@@ -1,0 +1,42 @@
+body {
+    background-image: url("background.jpg");
+}
+
+#container {
+    display: flex;
+    margin: auto;
+
+    flex-wrap: wrap;
+}
+
+.divGrid {
+    border-color:bisque;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: bisque;
+}
+
+
+.button-space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+button {
+    height: 30px;
+    border: solid black;
+    background-color:cornsilk;
+    font-size: large;
+    font-weight: bold;
+}
